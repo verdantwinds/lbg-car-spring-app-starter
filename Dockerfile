@@ -2,7 +2,7 @@
 FROM openjdk:11-jdk-slim
 
 # Set working directory
-WORKDIR /app
+WORKDIR /src
 
 # Copy maven executable to the image
 COPY mvnw .
